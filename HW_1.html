@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>signup Page</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+
+  <div class="title">
+    <h1>Sign Up</h1>
+    <form>
+      <div class="name">
+        <input type="text" id="firstname" name="name" placeholder="First Name" required>
+        <input type="text" id="lastname" name="name" placeholder="Last Name" required>
+      </div>
+      <input type="text" id="phone" name="name" placeholder="Mobile No." required>
+      <input type="email" id="email" name="email" placeholder="Email Address" required>
+      <div class="password_group">
+        <input type="password" id="password" name="password" placeholder="Password" required>
+        <input type="password" id="confirm_password" name="confirm password" placeholder="Confirm Password" required>
+      </div>
+      <div class="checkbox-wrap">
+        <div class="checkbox">
+          <input type="checkbox" id="agree" name="agree" required>
+          <label for="agree">I Agree</label>
+        </div>
+        <p>By clicking <span id="register">Register</span>, you agree to the <a href='/'>Terms and Conditions</a> set out by this site, including our Cookie Use.
+        </p>
+      </div>
+      <div class="buttons">
+        <button type="submit" class="register-btn">Register</button>
+        <button type="submit" class="sign-in-btn">Sign in</button>
+      </div>
+    </form>
+
+</body>
+
+</html>

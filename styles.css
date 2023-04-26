@@ -1,0 +1,120 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  color: #333;
+}
+
+form {
+  margin: 30px auto;
+  max-width: 700px;
+  padding: 30px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+input {
+  width: 95%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  display: inline-block;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0px 0px 6px rgb(127, 183, 225);
+  border: 2px solid rgb(125, 189, 237);  
+  border-radius: 5px; 
+}
+
+input::placeholder {
+  font-size: larger;
+}
+
+.name, .password_group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#firstname, #lastname {
+  width: 42%;
+}
+
+#password, #confirm_password {
+  width: 42%;
+}
+
+.checkbox-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.checkbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.checkbox-wrap p {
+  font-size: 14px;
+  font-weight: lighter;
+  width: 70%;
+}
+
+.checkbox-wrap label {
+  font-size: small;
+  font-weight: bold;
+}
+
+.checkbox-wrap a {
+  color: rgb(80, 208, 222);
+  text-decoration: none;
+}
+
+#register {
+  background-color: rgb(62, 137, 194);
+  display: inline-block;
+  padding: 3px 6px;
+  border-radius: 3px;
+  color: white;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+button {
+  color: #fff;
+  padding: 15px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 46%;
+}
+
+.register-btn {
+  background-color: rgb(62, 137, 194);
+  border-color: rgb(62, 137, 194);
+}
+
+.sign-in-btn {
+  background-color: rgba(25, 186, 76, 0.83);
+  border-color: rgba(25, 186, 76, 0.83);
+}
